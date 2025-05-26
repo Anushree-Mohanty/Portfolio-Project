@@ -54,9 +54,10 @@ body {
     margin-top: 10px;
 }
 .hamburger img {
-    width: 40px; /* Adjust as needed */
+    width: 35px;
     cursor: pointer;
-}
+    align-content: center
+  }
 
 .projects-list {
   display: grid;
