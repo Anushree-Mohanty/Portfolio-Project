@@ -1,3 +1,3 @@
-document.querySelector('.menu-icon img').addEventListener('click', function() {
-    document.querySelector('.menu').classList.toggle('show');
+document.querySelector('.hamburger img').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('active');
 });

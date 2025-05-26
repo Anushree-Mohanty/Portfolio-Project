@@ -37,39 +37,25 @@ body {
   padding: 20px;
   }  
 
-.nav-links a {
+  .nav-links a {
     text-decoration: none;
     color: white;
     padding: 10px;
     font-size: 18px;
     transition: 0.3s ease-in-out;
-}
+  }
 
-.menu-icon img {
-    width: 30px;
+.hamburger {
+    display: none;
     cursor: pointer;
-    display: none;
-}
-
-.menu {
-    display: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #444;
-}
-
-.menu li {
-    padding: 10px;
-}
-
-.menu li a {
-    color: white;
     text-decoration: none;
+    color: white;
+    height: 60px;
+    margin-top: 10px;
 }
-
-.menu.show {
-    display: block;
+.hamburger img {
+    width: 40px; /* Adjust as needed */
+    cursor: pointer;
 }
 
 .projects-list {
@@ -110,12 +96,8 @@ body {
         display: flex;
     }
 
-    .menu {
+    .hamburger {
         display: block;
-    }
-
-    .menu-icon{
-      display: block;
     }
 }
 
