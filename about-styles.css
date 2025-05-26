@@ -3,7 +3,6 @@ body {
     background-image: url(images/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: larger;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -35,6 +34,7 @@ body {
 
   section {
   padding: 20px;
+
   }  
 
   .nav-links a {
@@ -61,6 +61,22 @@ body {
     background: rgb(242, 236, 226);
     margin: 5px 0;
 }
+ .about-me { 
+    padding-top: 80px;
+    background-color: rgb(190, 149, 196) ;
+    font-size: larger;
+}
+
+.content{
+    font-size: larger;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
 
 @media (max-width: 768px) {
     .nav-links {
@@ -80,9 +96,4 @@ body {
     .hamburger {
         display: block;
     }
-}
-
-.about-me { 
-    padding-top: 60px;
-    background-color: rgb(190, 149, 196) ;
 }
