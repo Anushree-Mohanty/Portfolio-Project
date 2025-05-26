@@ -1,8 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const hamburger = document.querySelector(".hamburger");
-    const navLinks = document.querySelector(".nav-links");
-
-    hamburger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-    });
+document.querySelector('.menu-icon img').addEventListener('click', function() {
+    document.querySelector('.menu').classList.toggle('show');
 });
