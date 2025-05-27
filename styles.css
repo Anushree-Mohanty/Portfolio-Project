@@ -64,7 +64,7 @@ body {
     padding: 20px; 
     background: rgb(243, 235, 252); 
     border-radius: 10px;
-    font-size: x-large;
+    font-size: large;
 }
 
 .grid-container {
@@ -73,7 +73,7 @@ body {
     gap: 20px;
     background-color: rgb(231, 198, 255);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     font-size: x-large;
 }
