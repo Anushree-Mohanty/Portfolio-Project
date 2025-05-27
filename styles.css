@@ -63,19 +63,19 @@ body {
     gap: 30px;
     padding: 20px; 
     background: rgb(243, 235, 252); 
-    border-radius: 10px;
-    font-size: large;
+    border-radius: 5px;
+    font-size: larger;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     background-color: rgb(231, 198, 255);
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    font-size: x-large;
+    font-size: larger;
 }
 
 @media (max-width: 768px) {
